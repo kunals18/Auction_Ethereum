@@ -1,4 +1,4 @@
-# Auction application based on Ethereum Smart Contract
+# Auction Application based on Ethereum Smart Contract
 
 An auction application dapp where you can create auction for items and other people can bid for it.
 
@@ -13,8 +13,8 @@ An auction application dapp where you can create auction for items and other peo
 ## Setup
 
 ```bash
-git clone 
-cd 
+git clone https://github.com/kunals18/Auction_Ethereum.git
+cd Auction_Ethereum
 npm install
 truffle compile
 ```
@@ -39,7 +39,15 @@ curl -d '{"jsonrpc":"2.0","method":"eth_sendTransaction","params": [{"from":<fro
 
 ```
 
-### Developers
+### To run on Ropsten Test Network:
+Deploy AuctionBox Contract through remix
+Update contract address in file auctionBoxInstance.js in contracts directory
+
+```bash
+npm run dev
+```
+
+### Developers:
 
 1. Ankit Kumar (160119)
 2. Krishan Singhal (160339)
